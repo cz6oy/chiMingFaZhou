@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.baizhi.mapper.WztextMapper">
+    <select id="queryAll" resultType="Wztext">
+        select * from wztext limit #{page},#{rows}
+    </select>
+    <select id="getCount" resultType="Integer">
+        select count(1) from wztext
+    </select>
+    <insert id="addWztext" parameterType="Wztext">
+      insert into wztext values(#{id},#{title},#{author},#{create_date},#{author_id},#{content},#{status})
+    </insert>
+    <update id="update" parameterType="Wztext">
+        update wztext
+        <set>
+            <if test="title != null">
+                title = #{title},
+            </if>
+            <if test="author != null">
+                author = #{author},
+            </if>
+            <if test="create_date != null">
+                create_date = #{create_date},
+            </if>
+            <if test="author_id != null">
+                author_id = #{author_id},
+            </if>
+            <if test="content != null">
+                content = #{content},
+            </if>
+            <if test="status != null">
+                status = #{status}
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+    <delete id="delete">
+        delete from wztext where id in
+        <foreach collection="id" item="item" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </delete>
+</mapper>

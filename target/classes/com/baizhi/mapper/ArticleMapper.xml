@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.baizhi.mapper.ArticleMapper">
+    <resultMap id="a1" type="Article">
+        <id column="acid" property="id"></id>
+        <result column="actitle" property="title"></result>
+        <result column="acsize" property="size"></result>
+        <result column="accreateDate" property="create_date"></result>
+        <result column="acduration" property="duration"></result>
+        <result column="acvoice" property="voice"></result>
+        <result column="acauthorId" property="author_id"></result>
+    </resultMap>
+
+    <select id="queryAll" resultMap="a1">
+        select ac.id acid,ac.title actitle,ac.size acsize,ac.create_date accreateDate,ac.duration acduration,ac.voice acvoice,ac.author_id acauthorId  from article ac left join album ab on ac.author_id = ab.id where ac.author_id=#{author_id} limit #{page},#{rows};
+    </select>
+    <select id="getCount" parameterType="String" resultType="Integer">
+      select count(1) from article where author_id = #{author_id}
+    </select>
+    <insert id="add" parameterType="Article">
+      insert into article values(#{id},#{title},#{size},#{create_date},#{duration},#{voice},#{author_id})
+    </insert>
+    <update id="updateVoice" parameterType="Article">
+      update article
+      <set>
+          <if test="size != null">
+              size = #{size},
+          </if>
+          <if test="duration != null">
+              duration = #{duration},
+          </if>
+          <if test="voice != null">
+              voice = #{voice}
+          </if>
+      </set>
+        where id = #{id}
+    </update>
+
+    <delete id="delete" parameterType="String">
+        delete from Article where id in
+        <foreach collection="id" open="(" separator="," close=")" item="item">
+            #{item}
+        </foreach>
+    </delete>
+    <update id="update" parameterType="Article">
+        update article
+        <set>
+            <if test="title != null">
+                title = #{title}
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+</mapper>

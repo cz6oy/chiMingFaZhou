@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.baizhi.mapper.AlbumMapper">
+    <select id="queryAll" resultType="Album">
+      select * from album limit #{page},#{rows}
+    </select>
+    <select id="count" parameterType="Integer" resultType="Integer">
+        select count(1) from album
+    </select>
+    <insert id="add" parameterType="Album">
+      insert into album values(#{id},#{title},#{score},#{author},#{broadcast},#{count},#{brief},#{create_date},#{cover_pic})
+    </insert>
+    <update id="updateCoverPic">
+        update album set cover_pic = #{cover_pic} where id = #{id}
+    </update>
+    <update id="update" parameterType="Album">
+        update album
+        <set>
+            <if test="title != null">title = #{title},</if>
+            <if test="score != null">score = #{score},</if>
+            <if test="author != null">author = #{author},</if>
+            <if test="broadcast != null">broadcast = #{broadcast},</if>
+            <if test="count != null">count = #{count},</if>
+            <if test="brief != null">brief = #{brief},</if>
+            <if test="create_date != null">create_date = #{create_date},</if>
+        </set>
+        where id = #{id}
+    </update>
+
+
+    <delete id="delete">
+        delete from album where id in
+        <foreach collection="id" item="item" index="index" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </delete>
+    <select id="getCount" resultType="Integer">
+        select count(1) from album
+    </select>
+</mapper>
