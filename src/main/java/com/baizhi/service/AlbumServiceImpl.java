@@ -1,5 +1,7 @@
 package com.baizhi.service;
 
+import com.baizhi.annotation.AddCache;
+import com.baizhi.annotation.DelCache;
 import com.baizhi.entity.Album;
 import com.baizhi.mapper.AlbumMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +16,7 @@ public class AlbumServiceImpl implements AlbumService {
     private AlbumMapper albumMapper;
 
     @Override
+    @AddCache
     public Map<String,Object> queryAll(Integer page,Integer rows) {
         HashMap<String,Object> map = new HashMap<>();
 
@@ -30,6 +33,7 @@ public class AlbumServiceImpl implements AlbumService {
     }
 
     @Override
+    @DelCache
     public String add(String title, Integer score, String author, String broadcast, Integer count, String brief, Date create_date, String cover_pic) {
         Album album = new Album();
         String id = UUID.randomUUID().toString();
@@ -52,6 +56,7 @@ public class AlbumServiceImpl implements AlbumService {
     }
 
     @Override
+    @DelCache
     public String update(String id, String title, Integer score, String author, String broadcast, Integer count, String brief, Date create_date, String cover_pic) {
         Album album = new Album();
         album.setId(id);
@@ -68,6 +73,7 @@ public class AlbumServiceImpl implements AlbumService {
     }
 
     @Override
+    @DelCache
     public void delete(String[] id) {
         albumMapper.delete(id);
     }

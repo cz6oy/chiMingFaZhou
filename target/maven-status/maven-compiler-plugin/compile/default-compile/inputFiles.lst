@@ -29,6 +29,7 @@ D:\Code\cmfz\src\main\java\com\baizhi\service\WztextService.java
 D:\Code\cmfz\src\main\java\com\baizhi\service\AlbumServiceImpl.java
 D:\Code\cmfz\src\main\java\com\baizhi\controller\BannerController.java
 D:\Code\cmfz\src\main\java\com\baizhi\entity\User.java
+D:\Code\cmfz\src\main\java\com\baizhi\cache\RedisCache.java
 D:\Code\cmfz\src\main\java\com\baizhi\mapper\AlbumMapper.java
 D:\Code\cmfz\src\main\java\com\baizhi\service\UserServiceImpl.java
 D:\Code\cmfz\src\main\java\com\baizhi\controller\SecurityCodeImageController.java

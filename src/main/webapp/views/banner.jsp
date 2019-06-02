@@ -104,7 +104,7 @@
     <h2>轮播图管理</h2>
     <!-- Nav tabs -->
     <ul class="nav nav-tabs" role="tablist">
-        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">轮播图信息</a></li>
+        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">轮播图信息</a></li><br/>
     </ul>
     <!-- Tab panes -->
     <div class="tab-content">

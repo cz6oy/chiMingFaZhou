@@ -1,5 +1,7 @@
 package com.baizhi.service;
 
+import com.baizhi.annotation.AddCache;
+import com.baizhi.annotation.DelCache;
 import com.baizhi.entity.Article;
 import com.baizhi.mapper.ArticleMapper;
 import org.apache.commons.io.FileUtils;
@@ -25,6 +27,7 @@ public class ArticleServiceImpl implements ArticleService {
     private ArticleMapper articleMapper;
 
     @Override
+    @AddCache
     public Map<String, Object> queryAll(String author_id, Integer page, Integer rows) {
         HashMap<String, Object> map = new HashMap<>();
 
@@ -43,6 +46,7 @@ public class ArticleServiceImpl implements ArticleService {
     }
 
     @Override
+    @DelCache
     public String add(Article article) {
         String id = UUID.randomUUID().toString();
         article.setId(id);
@@ -52,6 +56,7 @@ public class ArticleServiceImpl implements ArticleService {
     }
 
     @Override
+    @DelCache
     public void updateVoice(String articleId, MultipartFile voice, HttpSession session) {
         try {
             if("".equals(voice.getOriginalFilename())){
@@ -87,6 +92,7 @@ public class ArticleServiceImpl implements ArticleService {
     }
 
     @Override
+    @DelCache
     public void delete(String[] id) {
         articleMapper.delete(id);
     }

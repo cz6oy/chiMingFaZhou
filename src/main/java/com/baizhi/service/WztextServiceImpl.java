@@ -1,5 +1,7 @@
 package com.baizhi.service;
 
+import com.baizhi.annotation.AddCache;
+import com.baizhi.annotation.DelCache;
 import com.baizhi.entity.Wztext;
 import com.baizhi.mapper.WztextMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +16,7 @@ public class WztextServiceImpl implements WztextService {
     private WztextMapper wztextMapper;
 
     @Override
+    @AddCache
     public Map<String, Object> queryAll(Integer page, Integer rows) {
         HashMap<String,Object> map = new HashMap<>();
         Integer start = (page-1)*rows;
@@ -29,17 +32,20 @@ public class WztextServiceImpl implements WztextService {
     }
 
     @Override
+    @DelCache
     public void addWztext(Wztext wztext) {
         wztext.setCreate_date(new Date()).setId(UUID.randomUUID().toString());
         wztextMapper.addWztext(wztext);
     }
 
     @Override
+    @DelCache
     public void update(Wztext wztext) {
         wztextMapper.update(wztext);
     }
 
     @Override
+    @DelCache
     public void delete(String[] id) {
         wztextMapper.delete(id);
     }

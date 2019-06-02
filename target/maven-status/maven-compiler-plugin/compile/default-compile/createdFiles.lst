@@ -22,6 +22,7 @@ com\baizhi\entity\Banner.class
 com\baizhi\utils\ValidateImageCodeUtils.class
 com\baizhi\entity\Article.class
 com\baizhi\mapper\BannerMapper.class
+com\baizhi\annotation\AddCache.class
 com\baizhi\service\BannerService.class
 com\baizhi\mapper\EchartsMapper.class
 com\baizhi\service\WztextService.class
@@ -33,8 +34,10 @@ com\baizhi\entity\Album.class
 com\baizhi\controller\EchartsController.class
 com\baizhi\controller\AdminController.class
 com\baizhi\service\BannerServiceImpl.class
+com\baizhi\cache\RedisCache.class
 com\baizhi\controller\SecurityCodeImageController.class
 com\baizhi\mapper\WztextMapper.class
+com\baizhi\annotation\DelCache.class
 com\baizhi\service\WztextServiceImpl.class
 com\baizhi\App.class
 com\baizhi\utils\ValidateImageCodeUtils$SecurityCodeLevel.class

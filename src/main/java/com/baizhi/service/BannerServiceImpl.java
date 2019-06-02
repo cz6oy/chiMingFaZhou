@@ -1,5 +1,7 @@
 package com.baizhi.service;
 
+import com.baizhi.annotation.AddCache;
+import com.baizhi.annotation.DelCache;
 import com.baizhi.entity.Banner;
 import com.baizhi.mapper.BannerMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +16,7 @@ public class BannerServiceImpl implements BannerService {
     private BannerMapper bannerMapper;
 
     @Override
+    @AddCache
     public Map<String,Object> queryAll(Integer page, Integer rows) {
         HashMap<String, Object> map = new HashMap<>();
         Integer start = (page-1)*rows;
@@ -30,6 +33,7 @@ public class BannerServiceImpl implements BannerService {
     }
 
     @Override
+    @DelCache
     public String add(String title, String img_pic, String status, String description) {
         String id = UUID.randomUUID().toString();
         Banner banner = new Banner();
@@ -49,11 +53,13 @@ public class BannerServiceImpl implements BannerService {
     }
 
     @Override
+    @DelCache
     public void delete(String[] id) {
         bannerMapper.delete(id);
     }
 
     @Override
+    @DelCache
     public String update(String id, String title, String status, Date create_date, String description) {
         Banner banner = new Banner();
         banner.setId(id);
