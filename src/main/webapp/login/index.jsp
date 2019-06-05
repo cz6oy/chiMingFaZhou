@@ -1,5 +1,6 @@
 <%@page contentType="text/html; utf-8" isELIgnored="false" pageEncoding="UTF-8" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@taglib prefix="shiro" uri="http://shiro.apache.org/tags" %>
 <html lang="en">
 
 <head>
@@ -53,7 +54,8 @@
                         <button class="btn btn-inverse dropdown-toggle" type="button" id="dropdownMenu1"
                                 data-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="true">
-                            ${sessionScope.loginUser.username}
+                            <shiro:principal></shiro:principal>
+                            <%--${sessionScope.loginUser.username}--%>
                             <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu " aria-labelledby="dropdownMenu1">
@@ -147,6 +149,7 @@
                         </div>
                     </div>
                 </div>
+                <shiro:hasPermission name="album:*">
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="headingSix">
                         <h4 class="panel-title">
@@ -163,6 +166,7 @@
                     </div>
                 </div>
             </div>
+            </shiro:hasPermission>
         </div>
         <div id="changContent" class="col-lg-10">
             <div class="jumbotron">

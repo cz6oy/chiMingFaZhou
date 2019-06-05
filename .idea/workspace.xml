@@ -2,22 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b684ec6-bc47-4580-9086-2ae9ab600cc0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/baizhi/annotation/AddCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/baizhi/annotation/DelCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/baizhi/cache/RedisCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/baizhi/entity/RoleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/baizhi/es/WztextRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/baizhi/es/WztextRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/baizhi/shiro/MyRealmWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/baizhi/shiro/ShiroFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/baizhi/utils/SpringContextUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login/jquery-2.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/baizhi/test/shiroTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/baizhi/service/AlbumServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/baizhi/service/AlbumServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/baizhi/service/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/baizhi/service/ArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/baizhi/service/BannerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/baizhi/service/BannerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/baizhi/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/baizhi/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/baizhi/service/WztextServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/baizhi/service/WztextServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/baizhi/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/baizhi/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/baizhi/entity/Wztext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/baizhi/entity/Wztext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/baizhi/mapper/AdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/baizhi/mapper/AdminMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/baizhi/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/baizhi/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/baizhi/service/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/baizhi/service/AdminServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/banner.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/banner.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/baizhi/service/BannerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/baizhi/service/BannerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/baizhi/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/baizhi/mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/baizhi/cache/RedisCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/baizhi/cache/RedisCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/baizhi/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/baizhi/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/baizhi/mapper/AdminMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/baizhi/mapper/AdminMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/baizhi/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/baizhi/mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/baizhi/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/baizhi/service/AdminService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/baizhi/service/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/baizhi/service/AdminServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/baizhi/service/AlbumServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/baizhi/service/AlbumServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/baizhi/service/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/baizhi/service/ArticleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/baizhi/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/baizhi/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/baizhi/service/WztextServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/baizhi/service/WztextServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../springboot-dang/target/" />
@@ -43,16 +60,58 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="128" column="17" lean-forward="true" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WztextRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/es/WztextRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="43" lean-forward="true" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WztextRepositoryImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/es/WztextRepositoryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Mybatis-mapper" />
-        <option value="Interface" />
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,6 +121,8 @@
       <find>echarts</find>
       <find>getAttribute</find>
       <find>8080</find>
+      <find>AuthenticationInfo</find>
+      <find>loginButtonId</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -88,15 +149,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/com/baizhi/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/baizhi/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/baizhi/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/login/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/baizhi/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/goEasy1.jsp" />
         <option value="$PROJECT_DIR$/src/test/java/com/baizhi/test/goEasyTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/baizhi/mapper/EchartsMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/user.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/banner.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/baizhi/Anootation/DelCache.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/baizhi/Anootation/AddCache.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/baizhi/service/BannerServiceImpl.java" />
@@ -105,6 +162,25 @@
         <option value="$PROJECT_DIR$/src/main/java/com/baizhi/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/baizhi/service/WztextServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/baizhi/cache/RedisCache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/baizhi/entity/RoleDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/baizhi/shiro/RealmFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/baizhi/shiro/MyRealm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/baizhi/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/baizhi/utils/SpringContextUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/baizhi/mapper/AdminMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/baizhi/mapper/AdminMapper.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/baizhi/test/shiroTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/baizhi/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/baizhi/service/AdminServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/baizhi/shiro/MyRealmWeb.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/baizhi/shiro/ShiroFilter.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/baizhi/entity/Wztext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/baizhi/es/WztextRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/baizhi/es/WztextRepository.java" />
       </list>
     </option>
   </component>
@@ -159,6 +235,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,12 +243,63 @@
               <item name="cmfz" type="b2602c69:ProjectViewProjectNode" />
               <item name="cmfz" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cmfz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmfz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cmfz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmfz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cmfz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmfz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cmfz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmfz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cmfz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmfz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="baizhi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cmfz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmfz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="baizhi" type="462c0819:PsiDirectoryNode" />
+              <item name="es" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cmfz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmfz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -190,6 +318,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\cmfz\src\main\java\com\baizhi\utils" />
+      <recent name="D:\Code\cmfz\src\main\webapp\login" />
+      <recent name="D:\Code\cmfz\src\main\java\com\baizhi" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -202,7 +337,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.cmfz [spring-boot:run]">
+  <component name="RunManager" selected="JUnit.shiroTest.demo1">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -234,6 +369,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.baizhi.test" />
       <option name="MAIN_CLASS_NAME" value="com.baizhi.test.goEasyTest" />
+      <option name="METHOD_NAME" value="demo1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="shiroTest.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cmfz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baizhi.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.baizhi.test" />
+      <option name="MAIN_CLASS_NAME" value="com.baizhi.test.shiroTest" />
       <option name="METHOD_NAME" value="demo1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -299,9 +457,11 @@
       <item itemvalue="Spring Boot.App" />
       <item itemvalue="JUnit.goEasyTest.demo1" />
       <item itemvalue="Maven.cmfz [spring-boot:run]" />
+      <item itemvalue="JUnit.shiroTest.demo1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.shiroTest.demo1" />
         <item itemvalue="Maven.cmfz [spring-boot:run]" />
         <item itemvalue="JUnit.goEasyTest.demo1" />
       </list>
@@ -328,7 +488,10 @@
       <workItem from="1559303046778" duration="401000" />
       <workItem from="1559390669284" duration="8564000" />
       <workItem from="1559437765011" duration="1411000" />
-      <workItem from="1559439937544" duration="15437000" />
+      <workItem from="1559439937544" duration="17632000" />
+      <workItem from="1559529091379" duration="1532000" />
+      <workItem from="1559652406652" duration="10738000" />
+      <workItem from="1559696815227" duration="10187000" />
     </task>
     <servers />
   </component>
@@ -336,12 +499,31 @@
     <history-entry file="goEasyTest_demo1 - 2019.05.29 at 17h 17m 13s.xml">
       <configuration name="goEasyTest.demo1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="shiroTest_demo1 - 2019.06.04 at 21h 08m 01s.xml">
+      <configuration name="shiroTest.demo1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="shiroTest_demo1 - 2019.06.04 at 21h 12m 48s.xml">
+      <configuration name="shiroTest.demo1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="shiroTest_demo1 - 2019.06.04 at 21h 16m 54s.xml">
+      <configuration name="shiroTest.demo1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="shiroTest_demo1 - 2019.06.04 at 22h 45m 50s.xml">
+      <configuration name="shiroTest.demo1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="shiroTest_demo1 - 2019.06.04 at 23h 42m 53s.xml">
+      <configuration name="shiroTest.demo1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="shiroTest_demo1 - 2019.06.05 at 09h 09m 51s.xml">
+      <configuration name="shiroTest.demo1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88721000" />
+    <option name="totallyTimeSpent" value="113373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50226927" side_tool="true" weight="0.94847023" />
@@ -355,16 +537,17 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.94041866" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.329582" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.329582" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.329582" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="1" weight="0.32850242" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.3268921" />
       <window_info anchor="bottom" id="Run" order="7" sideWeight="0.4977307" weight="0.94847023" />
       <window_info anchor="bottom" id="Spring" order="14" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.6698873" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.39788198" />
-      <window_info anchor="right" id="Bean Validation" order="8" weight="0.32980332" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.6698873" />
+      <window_info content_ui="combo" id="Project" order="6" weight="0.40393344" />
+      <window_info anchor="right" id="Bean Validation" order="8" weight="0.3267776" />
       <window_info id="Web" order="0" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -372,7 +555,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.329582" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.329582" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.3279743" />
@@ -381,40 +563,76 @@
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.3279743" />
       <window_info id="Designer" order="1" />
       <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.4977307" weight="0.94847023" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.4977307" visible="true" weight="0.94847023" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.24962178" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.329582" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.6698873" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50226927" side_tool="true" weight="0.948553" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50226927" side_tool="true" weight="0.94847023" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.329582" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.329582" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="right" id="Database" order="9" weight="0.32980332" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.329582" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32829046" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.329582" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.39788198" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.329582" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.3268921" />
+      <window_info anchor="right" id="Maven Projects" order="4" visible="true" weight="0.32829046" />
+      <window_info content_ui="combo" id="Project" order="6" weight="0.40393344" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info id="Web" order="0" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.39774558" />
-      <window_info anchor="right" id="Bean Validation" order="8" weight="0.32980332" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.329582" />
+      <window_info anchor="right" id="Bean Validation" order="8" weight="0.3267776" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.94041866" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -429,179 +647,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3213" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="58" column="47" lean-forward="true" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/album.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="115" column="22" lean-forward="true" selection-start-line="115" selection-start-column="22" selection-end-line="115" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/baizhi/mapper/BannerMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/baizhi/test01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/baizhi/test/goEasyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/goEasy1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/entity/Echarts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="19" column="26" selection-start-line="18" selection-start-column="2" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/baizhi/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/baizhi/mapper/EchartsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/controller/EchartsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/user.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="152" column="23" lean-forward="true" selection-start-line="152" selection-start-column="23" selection-end-line="152" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.0.6.RELEASE/spring-boot-starter-parent-2.0.6.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.0.6.RELEASE/spring-boot-dependencies-2.0.6.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-json/2.0.6.RELEASE/spring-boot-starter-json-2.0.6.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1248">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.10.RELEASE/spring-webmvc-5.0.10.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6264">
-          <caret line="261" column="17" lean-forward="true" selection-start-line="261" selection-start-column="17" selection-end-line="261" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-web/2.0.6.RELEASE/spring-boot-starter-web-2.0.6.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="69" column="37" lean-forward="true" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.10.RELEASE/spring-context-5.0.10.RELEASE.jar!/org/springframework/context/annotation/ComponentScan.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.6.RELEASE/spring-boot-autoconfigure-2.0.6.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.6.RELEASE/spring-boot-autoconfigure-2.0.6.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2579">
-          <caret line="2052" column="32" selection-start-line="2052" selection-start-column="32" selection-end-line="2052" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.6.RELEASE/spring-boot-autoconfigure-2.0.6.RELEASE.jar!/org/springframework/boot/autoconfigure/web/ServerProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12217">
-          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.6.RELEASE/spring-boot-autoconfigure-2.0.6.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.6.RELEASE/spring-boot-autoconfigure-2.0.6.RELEASE.jar!/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-web/2.0.6.RELEASE/spring-boot-starter-web-2.0.6.RELEASE.pom" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.10.RELEASE/spring-context-5.0.10.RELEASE.jar!/org/springframework/context/annotation/ComponentScan.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.6.RELEASE/spring-boot-autoconfigure-2.0.6.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.6.RELEASE/spring-boot-autoconfigure-2.0.6.RELEASE.jar!/META-INF/spring-configuration-metadata.json" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.6.RELEASE/spring-boot-autoconfigure-2.0.6.RELEASE.jar!/org/springframework/boot/autoconfigure/web/ServerProperties.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.6.RELEASE/spring-boot-autoconfigure-2.0.6.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.6.RELEASE/spring-boot-autoconfigure-2.0.6.RELEASE.jar!/META-INF/spring.factories" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="936">
@@ -623,83 +675,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="134" column="29" selection-start-line="134" selection-start-column="29" selection-end-line="134" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.10.RELEASE/spring-aop-5.0.10.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="518" selection-start-line="518" selection-end-line="518" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.10.RELEASE/spring-webmvc-5.0.10.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="571" selection-start-line="571" selection-end-line="571" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.10.RELEASE/spring-webmvc-5.0.10.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="432" column="106" selection-start-line="432" selection-start-column="106" selection-end-line="432" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.10.RELEASE/spring-web-5.0.10.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="129" selection-start-line="129" selection-end-line="129" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.10.RELEASE/spring-aop-5.0.10.RELEASE.jar!/org/springframework/aop/interceptor/ExposeInvocationInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.10.RELEASE/spring-aop-5.0.10.RELEASE.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="414" column="68" lean-forward="true" selection-start-line="414" selection-start-column="68" selection-end-line="414" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" selection-start-line="4" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.10.RELEASE/spring-aop-5.0.10.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.10.RELEASE/spring-webmvc-5.0.10.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.10.RELEASE/spring-webmvc-5.0.10.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.10.RELEASE/spring-web-5.0.10.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.10.RELEASE/spring-aop-5.0.10.RELEASE.jar!/org/springframework/aop/interceptor/ExposeInvocationInterceptor.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.10.RELEASE/spring-aop-5.0.10.RELEASE.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/service/AdminServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/service/AlbumServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -728,17 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/service/BannerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="e#1711#1712#0" expanded="true" />
-            <element signature="e#1750#1751#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -777,16 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -794,6 +758,182 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/service/AlbumServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/service/BannerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/entity/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/shiro/RealmFilter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/shiro/MyRealm.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login/jquery.validate.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/baizhi/test/goEasyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/mapper/AdminMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/service/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/utils/SpringContextUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/baizhi/test/shiroTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/entity/RoleDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3166">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/shiro/ShiroFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/baizhi/mapper/AdminMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/shiro/MyRealmWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="128" column="17" lean-forward="true" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/entity/Wztext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/es/WztextRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="43" lean-forward="true" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/baizhi/es/WztextRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

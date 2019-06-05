@@ -4,4 +4,10 @@
     <select id="findByName" resultType="Admin" parameterType="String">
         select * from admin where username = #{username}
     </select>
+    <select id="findByTokenName" parameterType="String" resultType="RoleDto">
+      select r.id as id,r.name as roleName from admin as a join admin_role_temp as at on a.id = at.admin_id join role r on at.role_id = r.id where a.username = #{username}
+    </select>
+    <select id="findByPermission" parameterType="String" resultType="String">
+        select p.name from role r join role_permission_temp rt on r.id = rt.role_id join permission p on rt.permission_id = p.id where r.id = #{id}
+    </select>
 </mapper>

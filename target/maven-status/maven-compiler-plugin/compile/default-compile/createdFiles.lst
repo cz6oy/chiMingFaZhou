@@ -17,6 +17,7 @@ com\baizhi\mapper\AlbumMapper.class
 com\baizhi\service\AdminServiceImpl.class
 com\baizhi\service\KindeditorService.class
 com\baizhi\controller\ArticleController.class
+com\baizhi\shiro\ShiroFilter.class
 com\baizhi\entity\Admin.class
 com\baizhi\entity\Banner.class
 com\baizhi\utils\ValidateImageCodeUtils.class
@@ -28,6 +29,7 @@ com\baizhi\mapper\EchartsMapper.class
 com\baizhi\service\WztextService.class
 com\baizhi\mapper\UserMapper.class
 com\baizhi\mapper\AdminMapper.class
+com\baizhi\shiro\MyRealmWeb.class
 com\baizhi\mapper\ArticleMapper.class
 com\baizhi\controller\UserController.class
 com\baizhi\entity\Album.class

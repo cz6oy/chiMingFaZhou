@@ -1,8 +1,10 @@
 D:\Code\cmfz\src\main\java\com\baizhi\service\BannerService.java
+D:\Code\cmfz\src\main\java\com\baizhi\entity\RoleDto.java
 D:\Code\cmfz\src\main\java\com\baizhi\service\UserService.java
 D:\Code\cmfz\src\main\java\com\baizhi\controller\UserController.java
 D:\Code\cmfz\src\main\java\com\baizhi\entity\Article.java
 D:\Code\cmfz\src\main\java\com\baizhi\service\AdminServiceImpl.java
+D:\Code\cmfz\src\main\java\com\baizhi\annotation\DelCache.java
 D:\Code\cmfz\src\main\java\com\baizhi\service\ArticleServiceImpl.java
 D:\Code\cmfz\src\main\java\com\baizhi\service\WztextServiceImpl.java
 D:\Code\cmfz\src\main\java\com\baizhi\entity\Banner.java
@@ -16,12 +18,16 @@ D:\Code\cmfz\src\main\java\com\baizhi\service\BannerServiceImpl.java
 D:\Code\cmfz\src\main\java\com\baizhi\service\ArticleService.java
 D:\Code\cmfz\src\main\java\com\baizhi\controller\KindeditorController.java
 D:\Code\cmfz\src\main\java\com\baizhi\entity\Admin.java
+D:\Code\cmfz\src\main\java\com\baizhi\utils\SpringContextUtil.java
 D:\Code\cmfz\src\main\java\com\baizhi\entity\Echarts.java
 D:\Code\cmfz\src\main\java\com\baizhi\mapper\AdminMapper.java
+D:\Code\cmfz\src\main\java\com\baizhi\annotation\AddCache.java
 D:\Code\cmfz\src\main\java\com\baizhi\controller\AlbumController.java
 D:\Code\cmfz\src\main\java\com\baizhi\controller\EchartsController.java
 D:\Code\cmfz\src\main\java\com\baizhi\service\AdminService.java
 D:\Code\cmfz\src\main\java\com\baizhi\mapper\WztextMapper.java
+D:\Code\cmfz\src\main\java\com\baizhi\shiro\MyRealmWeb.java
+D:\Code\cmfz\src\main\java\com\baizhi\shiro\ShiroFilter.java
 D:\Code\cmfz\src\main\java\com\baizhi\mapper\EchartsMapper.java
 D:\Code\cmfz\src\main\java\com\baizhi\service\KindeditorService.java
 D:\Code\cmfz\src\main\java\com\baizhi\controller\WztextController.java

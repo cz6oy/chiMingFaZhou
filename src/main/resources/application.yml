@@ -28,7 +28,9 @@ spring:
     port: 6379
     host: 192.168.153.50
     database: 0
-
+  data:
+    elasticsearch:
+      cluster-nodes: 192.168.153.40:9300
 mybatis:
   type-aliases-package: com.baizhi.entity
   mapper-locations: classpath:com/baizhi/mapper/*Mapper.xml
