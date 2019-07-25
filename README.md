@@ -5,4 +5,4 @@
 Springboot、Springmvc、Mybatis、Maven、Mysql5、IDEA、Shiro、Echarts、Elasticsearch全文检索引擎、Redis缓存、KindEdit富文本编辑器、GoEasy
 
 ## 注意事项
-由于Sql意外删除，所以项目跑不起来
+由于Sql意外删除，所以项目跑不起来，抱歉！
