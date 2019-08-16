@@ -6,3 +6,12 @@ Springboot、Springmvc、Mybatis、Maven、Mysql5、IDEA、Shiro、Echarts、Ela
 
 ## 注意事项
 由于Sql意外删除，所以项目跑不起来，抱歉！
+
+## project name
+chimingfazhou backstage management system
+
+## technique used
+Springboot、Springmvc、Mybatis、Maven、Mysql5、IDEA、Shiro、Echarts、Elasticsearch、Redis、KindEdit、GoEasy
+
+## attention
+because sql Accidental deletion The project doesn't work I'm sorry
